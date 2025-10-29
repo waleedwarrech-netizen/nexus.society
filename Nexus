@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nexus Society – Anime & Gaming Community Hub</title>
+  <meta name="description" content="Nexus Society — a creative space where anime lovers, gamers, and editors unite. Connect in our community chat, join events, share work, and grow with fans.">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+    :root{--bg1:#050217;--bg2:#0b1020;--accent1:#ff6ab3;--accent2:#6ee7b7;--muted:#9fb0c8}
+    *{box-sizing:border-box;font-family:Montserrat,system-ui,Arial}
+    body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 10% 10%, rgba(255,106,179,0.07), transparent), linear-gradient(180deg,var(--bg1),var(--bg2));color:#eaf6ff;display:flex;align-items:center;justify-content:center;padding:28px}
+    .wrap{width:100%;max-width:980px}
+    header{display:flex;gap:16px;align-items:center}
+    .logo{width:76px;height:76px;border-radius:18px;background:linear-gradient(135deg,var(--accent2),#60a5fa);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:26px;color:#061c1b;box-shadow:0 8px 30px rgba(70,120,170,0.18);position:relative;overflow:hidden}
+    .logo::after{content:'';position:absolute;inset:0;border-radius:18px;background:radial-gradient(circle at 30% 30%, rgba(255,255,255,0.08), transparent);mix-blend-mode:overlay}
+    h1{margin:0;font-size:30px;letter-spacing:0.4px}
+    p.lead{margin:6px 0 0;color:var(--muted);font-size:14px}
+    .grid{display:grid;grid-template-columns:1fr 380px;gap:26px;margin-top:20px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:14px;box-shadow:0 8px 40px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+    .buttons{display:flex;flex-direction:column;gap:12px}
+    .btn{display:inline-flex;align-items:center;gap:12px;padding:12px 14px;border-radius:12px;text-decoration:none;font-weight:700;background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));color:#eaf6ff;border:1px solid rgba(255,255,255,0.03);backdrop-filter: blur(4px)}
+    .btn.primary{background:linear-gradient(90deg,var(--accent1),var(--accent2));color:#061017;border:none;box-shadow:0 10px 30px rgba(110,231,183,0.08);transform:translateY(0);transition:transform .18s ease}
+    .btn.primary:active{transform:translateY(2px)}
+    .meta{font-size:13px;color:var(--muted);margin-top:10px}
+    .list{display:grid;gap:10px}
+    .list-item{display:flex;gap:12px;align-items:flex-start}
+    .emoji{font-size:20px;width:36px}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    .bg-ani{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0.55}
+    .spark{position:absolute;width:14px;height:14px;border-radius:50%;background:radial-gradient(circle,#fff,#ffd1f0);filter:blur(10px);mix-blend-mode:screen;animation:float 6s infinite}
+    @keyframes float{0%{transform:translateY(0) scale(1)}50%{transform:translateY(-40px) scale(1.15)}100%{transform:translateY(0) scale(1)}}
+    .glow{position:absolute;inset:-20%;filter:blur(60px);opacity:0.25;background:conic-gradient(from 180deg at 50% 50%, var(--accent1), #8b5cf6, var(--accent2), #60a5fa);mix-blend-mode:screen}
+    .title-deco{font-size:13px;color:var(--muted);display:inline-block;background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:6px 10px;border-radius:999px}
+    @media(max-width:880px){.grid{grid-template-columns:1fr}.card{padding:14px}.logo{width:60px;height:60px}}
+  </style>
+</head>
+<body>
+  <div class="bg-ani">
+    <div class="spark" style="left:10%;top:20%;animation-delay:0s"></div>
+    <div class="spark" style="left:25%;top:70%;animation-delay:1.2s;background:radial-gradient(circle,#fff,#ffd1a8)"></div>
+    <div class="spark" style="left:70%;top:25%;animation-delay:2.4s;background:radial-gradient(circle,#d8fcff,#60a5fa)"></div>
+    <div class="spark" style="left:85%;top:75%;animation-delay:3.6s;background:radial-gradient(circle,#ffd1f0,#ff6ab3)"></div>
+    <div class="glow"></div>
+  </div>
+  <div class="wrap" style="position:relative;z-index:2">
+    <header>
+      <div class="logo">NS</div>
+      <div>
+        <div class="title-deco">NEXUS SOCIETY</div>
+        <h1>Nexus Society</h1>
+        <p class="lead">Where Gamers & Anime Fans Unite — tournaments, edits, events & chill spaces.</p>
+      </div>
+    </header><div class="grid">
+  <main class="card">
+    <h2 style="margin-top:0">About Nexus Society</h2>
+    <p style="color:var(--muted)">Nexus Society is a community-run hub for anime lovers, gamers, and creators. We host events, run creative spaces for editors, and organize gaming tournaments — all while keeping a friendly, respectful environment.</p>
+
+    <h3 style="margin-bottom:6px">Quick Links</h3>
+    <div class="buttons" style="margin-bottom:12px">
+      <a class="btn primary" href="https://chat.whatsapp.com/CYPYb3V9bsDGGgKYD5Tf19?mode=ems_copy_t" target="_blank">🎮 Join Our Main Chat</a>
+      <a class="btn" href="https://www.instagram.com/nexus_society_x_gamers?igsh=MTFvMzJsMGhrN3piOQ==" target="_blank">📸 Instagram</a>
+      <a class="btn" href="https://youtube.com/@ssgerwin541?si=TAy4WhZ_LDloDiOp" target="_blank">🎥 YouTube</a>
+    </div>
+
+    <h3 style="margin-bottom:6px">Why join?</h3>
+    <ul style="color:var(--muted);line-height:1.6;margin-top:6px">
+      <li>Weekly tournaments & leaderboards</li>
+      <li>Creative edits & fanart spotlight</li>
+      <li>Active gaming matchmaking</li>
+      <li>Community-driven events & votes</li>
+    </ul>
+
+    <footer class="card" style="margin-top:18px;background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:10px;padding:10px;color:var(--muted)">
+      <strong>Community Guidelines:</strong> Respect everyone • No religion or politics • No NSFW • No spam
+    </footer>
+  </main>
+
+  <aside class="card">
+    <h3 style="margin-top:0">Groups at a glance</h3>
+    <div class="list" style="margin-top:8px">
+      <div class="list-item"><div class="emoji">🏆</div><div><strong>Nexus Tournaments</strong><div style="color:var(--muted);font-size:13px">Official event updates (admins only)</div></div></div>
+      <div class="list-item"><div class="emoji">🍥</div><div><strong>Nexus Otaku Realm</strong><div style="color:var(--muted);font-size:13px">Anime talks & memes</div></div></div>
+      <div class="list-item"><div class="emoji">🎨</div><div><strong>Nexus Edits Studio</strong><div style="color:var(--muted);font-size:13px">AMVs & editor spotlight</div></div></div>
+      <div class="list-item"><div class="emoji">🎮</div><div><strong>Nexus Gamers Hub</strong><div style="color:var(--muted);font-size:13px">Game chat & matchmaking</div></div></div>
+      <div class="list-item"><div class="emoji">🌙</div><div><strong>Nexus ChillZone</strong><div style="color:var(--muted);font-size:13px">Relaxed chat & vibes</div></div></div>
+      <div class="list-item"><div class="emoji">💼</div><div><strong>Nexus Management</strong><div style="color:var(--muted);font-size:13px">Admins & coordination</div></div></div>
+      <div class="list-item"><div class="emoji">💬</div><div><strong>Nexus Feedback Lounge</strong><div style="color:var(--muted);font-size:13px">Share ideas & vote</div></div></div>
+    </div>
+
+    <div style="margin-top:14px">
+      <div style="font-size:13px;color:var(--muted)">Want to help build Nexus?</div>
+      <a class="btn" href="https://chat.whatsapp.com/CYPYb3V9bsDGGgKYD5Tf19?mode=ems_copy_t" style="margin-top:8px;display:inline-block" target="_blank">🤝 Apply as Moderator</a>
+    </div>
+  </aside>
+</div>
+
+  </div>
+</body>
+</html>
